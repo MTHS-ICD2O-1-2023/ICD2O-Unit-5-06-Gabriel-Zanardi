@@ -13,5 +13,6 @@ function myButtonClicked() {
   const personAge = document.getElementById("person-age").innerHTML
   
   //process
-  while 
+  while (hi) {
+  }
 }
