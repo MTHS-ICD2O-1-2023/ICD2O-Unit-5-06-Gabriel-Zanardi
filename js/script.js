@@ -9,10 +9,20 @@
 function myButtonClicked() {
 
   //input
-  const dayOfWeek = document.getElementById("day-of-week").innerHTML
-  const personAge = document.getElementById("person-age").innerHTML
+  let firstNumber = parseInt(document.getElementById("first-number").value)
+  let secondNumber = parseInt(document.getElementById("second-number").value)
   
   //process
-  while (hi) {
+  let counter = 0
+  let result = 0
+
+  while (counter < secondNumber) {
+    result += firstNumber
+    counter += 1
   }
+
+  let finalResult = result
+
+  // output 
+  document.getElementById("final-answer").innerHTML = "Your result is" + finalResult
 }
