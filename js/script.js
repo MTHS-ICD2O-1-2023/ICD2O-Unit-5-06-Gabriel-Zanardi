@@ -24,5 +24,5 @@ function myButtonClicked() {
   let finalResult = result
 
   // output 
-  document.getElementById("final-answer").innerHTML = "Your result is" + finalResult
+  document.getElementById("final-answer").innerHTML = "Your result is " + finalResult
 }
